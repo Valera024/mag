@@ -95,7 +95,7 @@ function createCreditPerPrnTable(data, container) {
     tableHTML += '<tr><th>Освітній компонент</th>';
     let prnCount = findMaxPrn(data) || 1;
     for (let i = 1; i <= prnCount; i++) {
-        tableHTML += `<th>Прн ${i}</th>`;
+        tableHTML += `<th>ПРН ${i}</th>`;
     }
     tableHTML += '</tr>';
     tableHTML += '</thead>';
@@ -128,7 +128,7 @@ function createModifiedTable(data, container) {
     tableHTML += '<tr><th style="border: 1px solid black; padding: 5px;">Освітній компонент</th>';
     let prnCount = findMaxPrn(data) || 1;
     for (let i = 1; i <= prnCount; i++) {
-        tableHTML += `<th style="border: 1px solid black; padding: 5px;">Прн ${i}</th>`;
+        tableHTML += `<th style="border: 1px solid black; padding: 5px;">ПРН ${i}</th>`;
     }
     tableHTML += '</tr>';
     tableHTML += '</thead>';
