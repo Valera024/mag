@@ -118,6 +118,7 @@ function createCreditPerPrnTable(data, container) {
 
     tableHTML += '</tbody>';
     tableHTML += '</table>';
+
     container.innerHTML = tableHTML;
 }
 
