@@ -369,7 +369,3 @@ function findMaxSk(data) {
 
     return maxSk;
 }
-
-
-
-        
